@@ -9,11 +9,11 @@ function App(){
 
 return(
 
-<BrowserRouter>
+<BrowserRouter basename="/developer-productivity-analytics-app">
 
 <Routes>
 
-<Route path="/" element={<Login/>}/>
+<Route path="/" index element={<Login/>}/>
 
 <Route path="/dashboard" element={<Dashboard/>}/>
 
